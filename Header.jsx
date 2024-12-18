@@ -43,8 +43,7 @@ const Header = () => {
                     <div className="fixed top-0 left-0 w-full h-full flex flex-col justify-center items-center bg-gray-300 z-50">
                         <Link to='/' onClick={closeNav} className="text-primary hover:text-secondary block px-3 py-2 rounded-md text-base font-medium">Home</Link>
                         <Link to='/menu' onClick={closeNav} className="text-primary hover:text-secondary block px-3 py-2 rounded-md text-base font-medium">Menu</Link>
-                        <Link to='/login' onClick={closeNav} className="text-primary hover:text-secondary block px-3 py-2 rounded-md text-base font-medium">Login</Link>
-                    </div>
+                       </div>
                 </div>
             )}
         </nav>
